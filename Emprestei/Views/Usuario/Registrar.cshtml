@@ -1,0 +1,16 @@
+﻿@model Entities.Models.Usuario
+
+<h3>Cadastro de Usuário</h3>
+<form method="post" asp-controller="Usuario" asp-action="Registrar">
+    <div class="form-group">
+        <label for="Login">Login</label>
+        <input type="text" class="form-control" asp-for="login" id="login">
+        <span asp-validation-for="login" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="senha">Password:</label>
+        <input type="password" class="form-control" asp-for="senha" id="senha">
+        <span asp-validation-for="senha" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-block btn-success">Registrar </button>
+</form>

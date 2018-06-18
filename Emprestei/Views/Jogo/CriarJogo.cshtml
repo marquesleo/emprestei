@@ -1,0 +1,15 @@
+﻿@model Entities.Models.Jogo
+@{
+    ViewData["Title"] = "Criar Jogo";
+}
+
+<h2>Criar Jogo</h2>
+<form asp-controller="Jogo" asp-action="CriarJogo">
+    <div class="form-group">
+        <label for="descricao">Descrição:</label>
+        <input type="text" class="form-control" asp-for="Descricao" id="descricao">
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-block btn-success">Registrar </button>
+</form>
+

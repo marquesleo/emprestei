@@ -1,0 +1,36 @@
+﻿
+@model Emprestimo;
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="row">
+
+
+    <form method="post"  asp-action="GravarEmprestimo">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Jogo</th>
+                    <th>Emprestado</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            @{
+            foreach (var item in (List<JogoEmprestado>)ViewBag.Emprestimo.lstJogosEmprestados)
+            {
+                <tbody>
+
+                    <tr>
+                        <td>@item.DescricaoJogo</td>
+                 
+                        <td><input type="checkbox" id="emprestado" name="emprestado" value="true" @(item.emprestado ? "checked=\"checked\"" : "") /></td>
+                    </tr>
+
+                </tbody>
+        }
+            }
+        </table>
+        <button type="submit" class="btn btn-success">Gravar</button>
+    </form>
+   
+</div>

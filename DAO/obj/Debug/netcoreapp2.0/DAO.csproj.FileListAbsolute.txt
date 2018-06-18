@@ -1,0 +1,13 @@
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\bin\Debug\netcoreapp2.0\DAO.deps.json
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\bin\Debug\netcoreapp2.0\DAO.dll
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\obj\Debug\netcoreapp2.0\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\obj\Debug\netcoreapp2.0\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\obj\Debug\netcoreapp2.0\DAO.AssemblyInfoInputs.cache
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\obj\Debug\netcoreapp2.0\DAO.AssemblyInfo.cs
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\bin\Debug\netcoreapp2.0\DAO.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\bin\Debug\netcoreapp2.0\Contracts.dll
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\bin\Debug\netcoreapp2.0\Entities.dll
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\bin\Debug\netcoreapp2.0\Contracts.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\bin\Debug\netcoreapp2.0\Entities.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\obj\Debug\netcoreapp2.0\DAO.dll
+C:\Users\Leonardo\Documents\Visual Studio 2017\Projects\Emprestei\DAO\obj\Debug\netcoreapp2.0\DAO.pdb

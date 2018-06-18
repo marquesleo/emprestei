@@ -1,0 +1,15 @@
+﻿@model Entities.Models.Amigo
+@{
+    ViewData["Title"] = "Criar Amigo";
+}
+
+<h2>Criar Amigo</h2>
+<form asp-controller="Amigo" asp-action="CriarAmigo">
+    <div class="form-group">
+        <label for="Nome">Descrição:</label>
+        <input type="text" class="form-control" asp-for="Nome" id="Nome">
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-block btn-success">Registrar </button>
+</form>
+

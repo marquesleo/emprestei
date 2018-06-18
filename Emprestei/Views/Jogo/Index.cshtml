@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>Meus jogos</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Id</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+
+    @{
+        foreach (var item in (List<Entities.Models.Jogo>)ViewBag.ListaJogos)
+        {
+    <tbody>
+
+        <tr>
+            <td><button type="button" class="btn btn-danger" onclick="Excluir(@item.Id.ToString())">Excluir</button></td>
+            <td>@item.Id</td>
+            <td>@item.Descricao</td>
+        </tr>
+       
+    </tbody>
+        }
+    }
+</table>
+<button type="button" class="btn btn-block btn-primary" onclick="CriarJogo()">Criar Conta</button>
+<script>
+    function CriarJogo() {
+        window.location.href = "../Jogo/CriarJogo";
+
+    }
+    function Excluir(id) {
+        window.location.href = "../Jogo/Excluir/" + id;
+    }
+</script>
